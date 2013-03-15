@@ -26,7 +26,7 @@ print bing.search(query='Dojo',sources='news')
 Results as XML
 
 ```
-bing = Bing('49EB4B94127F7C7836C96DEB3F2CD8A6D12BDB71','xml')
+bing = Bing('your-api-key','xml')
 
 print bing.search(query='mootools',sources='web')
 # => xml.dom.minidom.Document instance at 0x00D4F5A8>
