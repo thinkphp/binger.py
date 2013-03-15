@@ -1,7 +1,7 @@
 import urllib
 import urllib2
 import json
-from xml.dom.minidom import parse, parseString
+from xml.dom.minidom import parse
 
 
 class Bing:
