@@ -2,7 +2,9 @@ import sys
 sys.path.append('lib')
 from bing import Bing
 
-bing = Bing('49EB4B94127F7C7836C96DEB3F2CD8A6D12BDB71')
+appID = 'Hko5cXg5U8h/WIE46pYQjmo/MLXNNkXYr+VXx/a66Ig'
+
+bing = Bing(appID)
 
 print bing.search(query='mootools',sources='web')
 
